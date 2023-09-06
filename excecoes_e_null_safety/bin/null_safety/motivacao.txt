@@ -1,0 +1,11 @@
+O Null Safety foi criado para sanar um problema que acontece com frequência em programação:
+    A manipulação de valores nulos em tempo de execução,
+    O que leva a um crash da aplicação. 
+
+
+Para resolver isso, o programador deve deixar claro quando uma variável ou função (parêmetro ou método) pode receber um valor nulo.
+    Entretanto, para isso, ele deve adotar medidas de segurança, 
+    que impedem que operações sejam realizadas com o valor nulo. 
+    (Null Safety)
+  
+    Código deve ser corrigido antes de ser enviado. 

@@ -20,10 +20,13 @@
 /**Pilha de Execução
  * Depurador e analisar pilha de execução da exceção
  * 
+ * Analisar pilha de execução no momento de lançamento de uma exceção. 
+ * 
  * Quando uma exceção é encontrada ao longo do código, ele desempilha a pilha de execução procurando um tratamento para a exceção
  */
 
-/**Lidando com exceções
+/**
+ * Lidando com exceções
  * Criando Exceções
  * Nuil pointer
  */

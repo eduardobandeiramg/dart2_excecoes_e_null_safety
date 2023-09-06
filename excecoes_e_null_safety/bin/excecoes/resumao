@@ -1,0 +1,27 @@
+Durante a execução, possíveis exceções devem ser capturadas e tratadas da forma correta. 
+(try-on-catch-finally-...)
+
+Essas exceções podem ser do próprio dart ou podem ser criadas. 
+(pasta de exceções > arquivo com exceções para cada classe > exceções(classes que implementam "Exception"))
+As exceções criadas devem implementar a interdace Exception para que seja possível capturar essa nova exceção com o bloco try catch. 
+ao criar a exceção, é bem comum sobrescrever o método toString(), que é chamado quando se dá um print(e) no tratamento. 
+
+Caso um método espera um certo tipo de erro não detelhado pelo dart, ele pode lançar uma exceção criada.
+(throw "nome da exceção").
+Ao lançar, essa exceção pode receber parâmetros que são determinados no seu construtor, no arquivo que a criou. 
+
+
+
+
+Criar (classe que implementa Exception) > 
+Lançar (no método) > 
+Tratar (na execução (ao chamar o método que lança exceção(ões)))
+                    (exceção nao existe)
+ou
+
+Lançar > Tratar
+                    (exceção existe mas não é lançada automaticamente)
+ou 
+
+Tratar
+                    (exceção existe e é tratada auto)
